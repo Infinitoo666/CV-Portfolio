@@ -1,61 +1,35 @@
-<section id="contact" class="w-full py-12 border-t border-[#ffffff10]">
+<section id="contact" class="py-12 border-t border-[#ffffff10]">
   <div class="max-w-5xl mx-auto">
-    <h2 class="text-lg text-[var(--sec)] mb-2 shiny-sec">Let's talk</h2>
-    <h3 class="text-4xl md:text-5xl font-medium text-[var(--white)] mb-6">
-      Contact
-    </h3>
+    <h2 class="text-lg text-[var(--sec)] mb-2 shiny-sec">Poznaj moją ekipę</h2>
+    <h3 class="text-4xl md:text-5xl font-medium mb-8 text-[var(--white)]">Zespół wsparcia</h3>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-      <div class="text-[var(--white-icon)]">
-        <p class="mb-4">
-          Have a question or a project in mind? Feel free to reach out.
+      <div class="border border-[var(--white-icon-tr)] rounded-2xl p-5 bg-[#1414149c] hover:border-[var(--sec)] transition-colors duration-300">
+        <img
+          src="/pets/piesek.JPEG" 
+          alt="Mój pies"
+          class="w-full aspect-square object-cover rounded-xl mb-4"
+        />
+        <h4 class="text-2xl font-semibold text-[var(--white)]">Luna</h4>
+        <span class="block text-sm font-medium text-[var(--sec)] mt-1 mb-3">
+          Junior Developer
+        </span>
+        <p class="mt-2 text-[var(--white-icon)]">
+          Pełna energii, ciągle w biegu i zawsze chętna do zabawy kosztem snu. Uwielbia leżeć na plecach i domagać się głaskania. Choć bywa małą niezdarą, w Babalu widzi swój największy autorytet.
         </p>
-        <div class="flex items-center gap-2">
-          <span>Location:</span>
-          <span class="text-[var(--white)]">Your country</span>
-        </div>
       </div>
-
-      <div>
-        <form
-          id="contact-form"
-          action="https://formspree.io/f/YOUR_FORM_ID_HERE"
-          method="POST"
-          class="flex flex-col gap-4"
-        >
-          <input
-            type="text"
-            name="from_name"
-            placeholder="Name"
-            required
-            class="px-4 py-2 bg-[#1414149c] text-[var(--white)] border border-[var(--white-icon-tr)] rounded-lg focus:outline-none focus:ring-2 focus:ring-[var(--sec)]"
-          />
-          <input
-            type="email"
-            name="reply_to"
-            placeholder="Email"
-            required
-            class="px-4 py-2 bg-[#1414149c] text-[var(--white)] border border-[var(--white-icon-tr)] rounded-lg focus:outline-none focus:ring-2 focus:ring-[var(--sec)]"
-          />
-          <textarea
-            name="message"
-            placeholder="Message"
-            rows="6"
-            required
-            class="px-4 py-2 bg-[#1414149c] text-[var(--white)] border border-[var(--white-icon-tr)] rounded-lg focus:outline-none focus:ring-2 focus:ring-[var(--sec)] resize-none"
-          ></textarea>
-          <button
-            type="submit"
-            class="px-4 py-2 bg-[var(--white-icon-tr)] text-[var(--white)] rounded-lg opacity-60 transition-opacity border border-[var(--white-icon-tr)] hover:opacity-100 hover:bg-[var(--white-icon-tr)]"
-          >
-            Submit
-          </button>
-        </form>
-        <div
-          id="form-message"
-          class="hidden justify-center items-center mt-4 text-[var(--white)] text-lg"
-        >
-          ✅ Thank you for your message!
-        </div>
+      <div class="border border-[var(--white-icon-tr)] rounded-2xl p-5 bg-[#1414149c] hover:border-[var(--sec)] transition-colors duration-300">
+        <img
+          src="/pets/kot_drzewo.JPEG" 
+          alt="Mój kot"
+          class="w-full aspect-square object-cover rounded-xl mb-4"
+        />
+        <h4 class="text-2xl font-semibold text-[var(--white)]">Babalu</h4>
+        <span class="block text-sm font-medium text-[var(--sec)] mt-1 mb-3">
+          Senior Tech Lead
+        </span>
+        <p class="mt-2 text-[var(--white-icon)]">
+          Oaza spokoju z 16-letnim stażem. Czuwa przy biurku podczas każdego projektu, asystując przy nauce i pisaniu kodu. Po godzinach bezbłędna wspinaczka drzew i niezrównana łowczyni myszy.
+        </p>
       </div>
     </div>
   </div>
